@@ -1,0 +1,120 @@
+body {
+  padding: 50px 250px 20px 250px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  opacity: 0.7;
+}
+
+.main-input-fields {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.input-fields {
+  text-align: center;
+  min-width: 150px;
+  min-height: 40px;
+  margin: 5px;
+  border: 2px solid #6c757d;
+  border-radius: 4px;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.input-field-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  text-align: center;
+  min-width: 150px;
+  min-height: 40px;
+  margin: 5px;
+  border: 2px solid #6c757d;
+  border-radius: 4px;
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+#main-content {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Generated div position and style */
+
+.generated-divs {
+  font-size: 30px;
+  color: white;
+  margin: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fizzbuzz {
+  background-color: #ffc107;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.fizz {
+  background-color: #dc3545;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.buzz {
+  background-color: #007bff;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.other {
+  background-color: #28a745;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+/* Some animation for fun */
+.generated-divs {
+  transition: all 0.2s ease-in-out;
+}
+.generated-divs:hover {
+  transform: scale(1.1);
+}
+
+.btn {
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.main-header {
+  transition: all 0.2s ease-in-out;
+}
+.main-header:hover {
+  transform: scale(1.2);
+}
