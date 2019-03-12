@@ -44,18 +44,22 @@ const addDivs = {
       const newDiv = document.createElement("div");
       if (i % addDivs.defaultValues.fizz === 0 && i % addDivs.defaultValues.buzz === 0) {
         newDiv.className = "fizzbuzz generated-divs";
+        newDiv.id = i;
         newDiv.innerText = 'Fizz-Buzz';
         addDivs.rootEl.appendChild(newDiv);
       } else if (i % addDivs.defaultValues.fizz === 0) {
         newDiv.className = "fizz generated-divs";
+        newDiv.id = i;
         newDiv.innerText = 'Fizz';
         addDivs.rootEl.appendChild(newDiv);
       } else if (i % addDivs.defaultValues.buzz === 0) {
         newDiv.className = "buzz generated-divs";
+        newDiv.id = i;
         newDiv.innerText = 'Buzz';
         addDivs.rootEl.appendChild(newDiv);
       } else {
         newDiv.className = "other generated-divs";
+        newDiv.id = i;
         newDiv.innerText = i;
         addDivs.rootEl.appendChild(newDiv);
       }
